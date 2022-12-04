@@ -1,4 +1,4 @@
-First task
+#First task
 double_items = []
 File.foreach("input.txt","\n") do |line, line_num|
     line = line.gsub("\n",'')

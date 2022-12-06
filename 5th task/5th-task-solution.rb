@@ -83,7 +83,7 @@ def line_checker(line)
     end 
 end
 
-File.foreach("input_c.txt","\n") do |line|
+File.foreach("input.txt","\n") do |line|
     if line == "\n"
         stack_data_writed = true
         next
